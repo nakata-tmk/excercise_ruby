@@ -2,7 +2,7 @@ input = gets.split(" ").map(&:to_i)
 n = input[0]
 a = input[1]
 b = input[2]
-ab = a.lcm(b)
+ab = a.lcm(b) #最小公倍数、最大公約数はg
 
 array = (1..n).to_a
 i = 0

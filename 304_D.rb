@@ -10,7 +10,7 @@ end
 if (integer.count - integer.uniq.count) > 0 then
   duble = integer.select{ |e| integer.count(e) > 1 }.uniq
   duble.push((1..n).sum - integer.sum + duble[0])
-  puts duble.join(' ')
+  puts duble.join(' ')  #配列を半角でつなげて1行で表示
 else
   puts "Correct"
 end

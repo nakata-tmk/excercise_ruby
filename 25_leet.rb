@@ -6,5 +6,5 @@ input_new = input.gsub(/A|E|G|I|O|S|Z/,
   "I" => "1",
   "O" => "0",
   "S" => "5",
-  "Z" => "2")
+  "Z" => "2") #文字置き換え
 puts input_new
