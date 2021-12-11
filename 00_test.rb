@@ -101,5 +101,33 @@
 # t = gets.chomp.to_s
 # puts s + "@" + t
 
-a,b = gets.split(" ").map(&:to_i)
-puts a- b
+# a,b = gets.split(" ").map(&:to_i)
+# puts a- b
+
+# n,m,l = gets.split(" ").map(&:to_i)
+# puts n*m*l
+
+# s = gets.chomp.to_s
+# puts s[0,3]
+
+# n = gets.chomp
+# puts n.length
+
+# a,b = gets.split(" ").map(&:to_i)
+# if a*b >= 10000
+#   puts "NG"
+# else
+#   puts a*b
+# end
+
+# s = gets.chomp.to_s
+# if s.length <= 20
+#   puts "OK"
+# else
+#   puts "NG"
+# end
+
+a = gets.chomp.to_s
+b = gets.chomp.to_s
+c = gets.chomp.to_s
+puts "Gold " + a, "Silver " + b, "Bronze " + c

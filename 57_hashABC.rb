@@ -6,7 +6,7 @@ n.times do
 end
 
 b = {}
-n.times do
+m.times do
   j,k = gets.split(" ").map(&:to_i)
   b[j] = k
 end
