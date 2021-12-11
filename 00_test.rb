@@ -127,7 +127,16 @@
 #   puts "NG"
 # end
 
-a = gets.chomp.to_s
-b = gets.chomp.to_s
-c = gets.chomp.to_s
-puts "Gold " + a, "Silver " + b, "Bronze " + c
+# a = gets.chomp.to_s
+# b = gets.chomp.to_s
+# c = gets.chomp.to_s
+# puts "Gold " + a, "Silver " + b, "Bronze " + c
+
+# y,m,d = gets.split(" ")
+# puts y + "/" + m + "/" + d
+
+# nums = gets.split(" ").map(&:to_i)
+# puts nums.sum
+
+h,l = gets.split(" ").map(&:to_i)
+puts h-l
