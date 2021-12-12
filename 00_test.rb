@@ -138,5 +138,33 @@
 # nums = gets.split(" ").map(&:to_i)
 # puts nums.sum
 
-h,l = gets.split(" ").map(&:to_i)
-puts h-l
+# h,l = gets.split(" ").map(&:to_i)
+# puts h-l
+
+# puts gets.to_i ** 2 * 6
+
+# puts 2 ** gets.to_i
+
+# n = gets.to_i
+# result = 0
+# n.times do
+#     a,b = gets.split(" ").map(&:to_i)
+#     if a == b
+#         result += a * b
+#     else
+#         result += a + b
+#     end
+# end
+# puts result
+
+# s = gets.chomp.to_s
+# puts s[0,1]
+
+# a,b = gets.split(" ").map(&:to_i)
+# puts [*a..b]
+
+a,b = gets.split(" ").map(&:to_i)
+s = gets.chomp.to_s
+
+before = s[0]
+puts s
